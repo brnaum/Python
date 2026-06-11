@@ -8,5 +8,6 @@ arquivo_Mb = arquivo_MB * 8
 tempo_segundos = arquivo_Mb / velocidade_Mbps
 #Transformar para minutos
 tempo_minutos = tempo_segundos / 60
-
-print(f"O tempo, em minutos, do arquivo informado é de: {tempo_minutos}")
+#Valor aproximado
+tempo_aproximado = round(tempo_minutos)
+print(f"O tempo de download do arquivo informado é de: {tempo_aproximado} minutos")
