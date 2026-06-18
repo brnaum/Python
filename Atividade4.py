@@ -10,9 +10,9 @@ p1 = float(input("Informe o valor da nota obtida na prova 1: "))
 p2 = float(input("Informe o valor da nota obtida na prova 2: "))
 t1 = float(input("Informe o valor obtido no trabalho 1: "))
 t2 = float(input("Informe o valor obtido no trabalho 2: "))
-MP = (p1 + p2) / 2
-MT = (t1 + t2) / 2
-MF = (0.8 * MP) + (0.2 * MT)
+MP = (p1 + p2) / 2 # Média das provas
+MT = (t1 + t2) / 2 # Média dos trabalhos
+MF = (0.8 * MP) + (0.2 * MT) # Média final ponderada
 print(f"O valor da média final é de: {MF:.2f}")
 
 if MF >= 6.0: 

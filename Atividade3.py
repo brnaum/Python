@@ -3,7 +3,7 @@
 arquivo_MB = float(input("Informe o tamanho do arquivo para download (em MB): "))
 velocidade_Mbps = float(input("Informe a velocidade da internet (em Mbps): "))
 #Converter o arquivo de Megabytes para Megabits
-arquivo_Mb = arquivo_MB * 8
+arquivo_Mb = arquivo_MB / 8
 #Calcular o tempo em segundos
 tempo_segundos = arquivo_Mb / velocidade_Mbps
 #Transformar para minutos
